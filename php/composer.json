@@ -1,0 +1,15 @@
+{
+    "name": "nicholasbrink/phpbenchmark",
+    "authors": [
+        {
+            "name": "Nicholas Brink",
+            "email": "nbrink7@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.9"
+    },
+    "scripts": {
+        "start": "php -S localhost:6000 index.php"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "@mattersight/authorization-server",
+    "version": "0.0.1",
+    "description": "OAuth2 Authentication and Authorization Server",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node lib/index.js"
+    },
+    "author": {
+        "name": "Nicholas Brink",
+        "email": "nicholas.brink@mattersight.com"
+    },
+    "dependencies": {
+        "koa": "^2.5.0",
+        "koa-bodyparser": "^4.2.0",
+        "koa-oauth-server": "^1.0.1",
+        "koa-router": "^7.4.0"
+    }
+}
